@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Agenda Meeting with ICT Minister
-date: 2018-11-07 12:23:35 +0000
+date: 2018-11-25 17:23:35 +0500
 categories: jekyll update
 
 ---
