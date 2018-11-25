@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to Maldives Digital Society
+title: Agenda Meeting with ICT Minister
 date: 2018-11-07 12:23:35 +0000
 categories: jekyll update
 
