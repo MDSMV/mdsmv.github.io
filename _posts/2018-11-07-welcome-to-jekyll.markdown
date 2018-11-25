@@ -7,6 +7,8 @@ categories: jekyll update
 ---
 **Agenda**
 
+![](/uploads/IMG_20181125_201724.jpg)
+
     Open data
     Reduce gov cost
     Past projects
