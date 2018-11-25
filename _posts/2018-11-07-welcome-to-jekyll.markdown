@@ -11,4 +11,4 @@ categories: jekyll update
     Reduce gov cost
     Past projects
     Facilitate gov in ICT initiatives
-    Open tas
+    Open standards
