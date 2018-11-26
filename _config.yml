@@ -68,3 +68,6 @@ defaults:
       type: people
     values:
       layout: person
+header_pages:
+  - about.md
+  - projects.md
