@@ -1,0 +1,17 @@
+---
+label: Pages
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: boolean
+  name: published
+  label: published
