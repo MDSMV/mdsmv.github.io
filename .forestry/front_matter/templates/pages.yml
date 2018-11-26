@@ -15,3 +15,5 @@ fields:
 - type: boolean
   name: published
   label: published
+pages:
+- "./projects.md"
