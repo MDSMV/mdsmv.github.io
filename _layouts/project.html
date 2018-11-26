@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% assign contact = site.people | where: "object-id", page.contact-id  | first %}
+
+<header class="intro project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    <p>Managed by: <a href="{{ contact.url }}">{{ contact.first-name }} {{ contact.last-name }}</a></p>
+</header>
+<div class="project-content">
+    {{ page.content }}
+    <a href="{{ page.link }}">Read more about {{ page.title }} </a>
+</div>

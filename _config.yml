@@ -35,19 +35,36 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
 source: .
 destination: _site
 
 permalink: pretty
+show_excerpts: false
 
 collections:
   projects:
     output: true
   people:
     output: false
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
+  - scope:
+      type: people
+    values:
+      layout: person
