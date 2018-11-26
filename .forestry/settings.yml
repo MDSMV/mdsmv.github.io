@@ -4,9 +4,11 @@ auto_deploy: true
 admin_path: admin
 webhook_url: 
 sections:
-- type: document
+- type: directory
   path: _people
   label: People
+  create: documents
+  match: "**/*"
 - type: directory
   path: _projects
   label: Projects
