@@ -1,0 +1,43 @@
+---
+label: Projects
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Id
+  name: object-id
+  config:
+    required: true
+- type: text
+  label: contact id
+  name: contact-id
+  config:
+    required: true
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: status
+  label: status
+  config:
+    required: true
+- type: boolean
+  name: featured
+  label: featured
+- type: number
+  name: featured-priority
+  label: featured priority
+- type: number
+  name: listing-priority
+  label: Listing Priority
+- type: text
+  name: link
+  label: link
+- type: text
+  name: repo
+  label: repo
