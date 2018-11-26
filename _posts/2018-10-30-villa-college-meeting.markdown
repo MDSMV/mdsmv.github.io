@@ -6,7 +6,6 @@ categories:
 - meeting
 
 ---
-**Agenda**
 
 ![](/uploads/photo6251407526365079668.jpg)
 
