@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maldives Digital Society
-email: shunan@digital.mv
+email: info@digital.mv
 description: >- # this means to ignore newlines until "baseurl:"
   Harnessing information and communication technologies to introduce significant and lasting positive changes for national development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "mdsmv.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mdsmv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mdigitalsociety
 
 # Build settings
