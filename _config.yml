@@ -23,7 +23,7 @@ twitter_username: mdigitalsociety
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-menus
