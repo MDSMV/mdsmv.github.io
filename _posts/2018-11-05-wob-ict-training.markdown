@@ -6,7 +6,6 @@ categories:
 - training
 
 ---
-**Agenda**
 
 ![](/uploads/photo6246694203484645451.jpg)
 
