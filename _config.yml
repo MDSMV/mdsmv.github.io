@@ -47,5 +47,7 @@ destination: _site
 permalink: pretty
 
 collections:
-  projects
-  people
+  projects:
+    output: true
+  people:
+    output: false
