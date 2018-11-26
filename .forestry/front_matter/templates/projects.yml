@@ -41,5 +41,3 @@ fields:
 - type: text
   name: repo
   label: repo
-pages:
-- "./projects.md"
