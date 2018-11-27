@@ -9,7 +9,7 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
+<div class="mid-content-left">
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -33,6 +33,7 @@ layout: default
   {%- endif -%}
 
   </div>
+  <div class="mid-content-right">
   {% assign projects = site.projects | where: "featured", "true" | sort: 'featured-priority' %}
   {%- if projects != false -%}
 
@@ -49,3 +50,4 @@ layout: default
 </ul>
    </div>
 </div>
+</div></div>
