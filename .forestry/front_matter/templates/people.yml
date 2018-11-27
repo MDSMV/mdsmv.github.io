@@ -1,0 +1,34 @@
+---
+label: People
+hide_body: false
+is_partial: false
+fields:
+- type: number
+  name: listing-priority
+  label: listing-priority
+  config:
+    required: false
+- type: text
+  name: object-id
+  label: object-id
+  config:
+    required: true
+- type: text
+  name: first-name
+  label: first-name
+  config:
+    required: true
+- type: text
+  name: middle-name
+  label: middle-name
+- type: text
+  name: last-name
+  label: last-name
+  config:
+    required: true
+- type: text
+  name: email
+  label: email
+- type: text
+  name: contact
+  label: contact
