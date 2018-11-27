@@ -19,3 +19,5 @@ fields:
 - type: tag_list
   name: categories
   label: categories
+pages:
+- "./_posts/_posts/meeting.md"
