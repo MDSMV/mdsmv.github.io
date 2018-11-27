@@ -4,3 +4,6 @@
 
 layout: home
 ---
+<h2>We are MDS</h2>
+
+We're part of a national network of civic-minded volunteers who contribute their skills toward using ICT for improving local government and community services.
