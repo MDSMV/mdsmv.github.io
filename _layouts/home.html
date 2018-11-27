@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="home">
@@ -43,7 +44,7 @@ layout: default
     {%- for project in projects -%}
     <li>
         <h3 class="project-title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
-        <p><a href="{{ project.link }}">Learn about {{ project.title }} project on github</a></p>
+        <p><a target="_blank" href="{{ project.repo }}">Learn about {{ project.title }} project on github</a></p>
     </li>
     {%- endfor -%}
     {%- endif -%}
